@@ -1,0 +1,15 @@
+package menghitungtrapesium;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan panjang sisi sejajar pertama: ");
+        double a = input.nextDouble();
+        System.out.print("Masukkan panjang sisi sejajar kedua: ");
+        double b = input.nextDouble();
+        System.out.print("Masukkan tinggi trapesium: ");
+        double h = input.nextDouble();
+        double luas = 0.5 * (a + b) * h;
+        System.out.println("Luas trapesium adalah: " + luas);
+    }
+}
