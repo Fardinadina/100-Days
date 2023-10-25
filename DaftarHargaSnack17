@@ -1,0 +1,46 @@
+package daftarhargasnack16;
+import java.util.Scanner;
+public class DaftarHargaSnack16 {
+    public static void main(String[] args) {
+        
+        
+        Scanner input = new Scanner(System.in);
+        double harga =0,porsi,pilihan =0,harga1=0;
+        String menu;
+        System.out.println("=======Warung MAMA ANI=======");
+        System.out.println("=======Daftar Snack=======");
+        System.out.println("1. Roti meises\n2. Jalankote\n3. Kuelapis\n4. Pisang nuget\n");
+        System.out.print("pilihan: ");
+        pilihan = input.nextDouble();
+        
+        System.out.print("Masukkan Jumlah Snack : ");
+        porsi = input.nextDouble();
+        
+        if (pilihan == 1){
+            menu = "Rotimeises";
+            harga = 2000;
+            harga1 = harga*porsi;
+        }else if (pilihan == 2){
+            menu = "Jalankote";
+            harga =1000;
+            harga1 = harga*porsi;
+        }else if (pilihan == 3){
+            menu = "Kuelapis";
+            harga = 3000;
+            harga1 = harga*porsi;
+        }else if (pilihan == 4){
+            menu = "Pisangnuget";
+            harga = 10000;
+            harga1 = harga*porsi;    
+        }
+        
+        System.out.println("Total harga: Rp " + harga1);
+
+
+
+
+
+
+    }
+    
+}
