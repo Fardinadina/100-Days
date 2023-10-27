@@ -1,7 +1,7 @@
 
 package kompresiStringKeInteger;
 import java.math.BigInteger;//untuk pemanggilan type datanya 
-public class day15 {
+public class kompresiStringKeInteger {
     public static void main(String[] args) {
         BigInteger hasil,hasi,has,ha,angka,angka1;
         angka = new BigInteger("1850000000");
