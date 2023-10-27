@@ -1,9 +1,9 @@
 
-package seratushari;
+package BelajarLoginWifi;
 
 import java.util.Scanner;
 
-public class hari18 {
+public class BelajarLoginWifi {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
