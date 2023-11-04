@@ -1,6 +1,6 @@
-package predikatnilaidenganoperatorternary27;
+package predikatnilaidenganoperatorternary28;
 import java.util.Scanner;
-public class Predikatnilaidenganoperatorternary27 {
+public class Predikatnilaidenganoperatorternary28 {
     public static void main(String[] args) {
         Scanner masuk = new Scanner(System.in);
         System.out.print("Masukkan nilai: ");
