@@ -42,8 +42,11 @@ public class MenuMakanandgnSwitchCase32 {
                 }
                 break;
 
-}
-}
+            default:
+                System.out.println("pilihan tidak tersedia");
+                break;
+            }
+        }
 }
     
     
