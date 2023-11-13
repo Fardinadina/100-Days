@@ -1,6 +1,6 @@
-package liriktanparasabersalah24;
+package belajarArray36;
 
-public class LirikTanpaRasaBersalah24 {
+public class BelajarArray36 {
     public static void main(String[] args) {
         
 
