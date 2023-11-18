@@ -1,6 +1,6 @@
-package belajarArray41;
+package belajararraylength41;
 
-public class BelajarArray41 {
+public class BelajarArrayLength41 {
     public static void main(String[] args) {
         
 
